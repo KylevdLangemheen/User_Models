@@ -13,7 +13,7 @@ set sound_sample_size -16
 set sound_freq 48000
 set sound_channels 2
 set sound_buf_size 1024
-set sampler_backend psycho
+set sampler_backend legacy
 set round_decimals 2
 set mouse_backend psycho
 set keyboard_backend psycho
@@ -86,6 +86,7 @@ define inline_script present_trial
 	my_canvas.text(prompt, font_size = 30)
 	if new:
 		my_canvas.text(answer, y = 50, font_size = 20)
+		my_canvas.text("Facts added:" +str(m.fact_counter)+"/25", y = 80, font_size = 20)
 	my_canvas.prepare()
 	src = pool[music]
 	my_sampler = Sampler(src, volume=0.95)
@@ -217,6 +218,7 @@ define inline_script slimstampen_setup
 	    F = 1.0
 	
 	    def __init__(self):
+	        self.fact_counter = 0
 	        self.facts = []
 	        self.responses = []
 	
@@ -270,6 +272,7 @@ define inline_script slimstampen_setup
 	            return((weakest_fact[0], False))
 	
 	        # If none of the previously seen facts has an activation below the threshold, return a new fact
+	        self.fact_counter += 1
 	        return((not_seen_facts[0][0], True))
 	
 	
@@ -472,9 +475,8 @@ define sequence trial_sequence
 	run present_trial always
 
 define loop while_there_is_time_left
-	set source_file ""
 	set source table
-	set repeat 1000
+	set repeat 50
 	set order random
 	set description "Repeatedly runs another item"
 	set cycles 1
