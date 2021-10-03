@@ -26,7 +26,7 @@ set font_size 18
 set font_italic no
 set font_family mono
 set font_bold no
-set experiment_path "C:/Users/Kyle/Documents/RUG/UserMod"
+set experiment_path "C:/Users/landm/Documents"
 set disable_garbage_collection yes
 set description "The main experiment item"
 set coordinates uniform
@@ -67,7 +67,7 @@ define inline_script learning_session_setup
 	# Settings
 	var.session_duration = 600000
 	var.feedback_duration = 800
-	var.inter_trial_interval = 200
+	var.inter_trial_interval = 100
 	__end__
 	set _prepare ""
 
@@ -88,7 +88,7 @@ define inline_script present_trial
 		my_canvas.text(answer, y = 50, font_size = 20)
 	my_canvas.prepare()
 	src = pool[music]
-	my_sampler = Sampler(src, volume=1)
+	my_sampler = Sampler(src, volume=0.95)
 	my_sampler.play()
 	
 	my_canvas.show()
@@ -211,7 +211,7 @@ define inline_script slimstampen_setup
 	
 	    # Model constants
 	    LOOKAHEAD_TIME = 15000
-	    FORGET_THRESHOLD = -0.8
+	    FORGET_THRESHOLD = -0.9
 	    DEFAULT_ALPHA = 0.3
 	    C = 0.25
 	    F = 1.0
@@ -472,6 +472,7 @@ define sequence trial_sequence
 	run present_trial always
 
 define loop while_there_is_time_left
+	set source_file ""
 	set source table
 	set repeat 1000
 	set order random
