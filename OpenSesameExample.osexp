@@ -26,7 +26,7 @@ set font_size 18
 set font_italic no
 set font_family mono
 set font_bold no
-set experiment_path "C:/Users/landm/Documents"
+set experiment_path "C:\\Users\\landm\\Documents\\GitHub\\User_Models"
 set disable_garbage_collection yes
 set description "The main experiment item"
 set coordinates uniform
@@ -65,7 +65,7 @@ define inline_script learning_session_setup
 	var.trial_num = 1
 	
 	# Settings
-	var.session_duration = 600000
+	var.session_duration = 900000
 	var.feedback_duration = 800
 	var.inter_trial_interval = 100
 	__end__
@@ -212,7 +212,8 @@ define inline_script slimstampen_setup
 	
 	    # Model constants
 	    LOOKAHEAD_TIME = 15000
-	    FORGET_THRESHOLD = -0.9
+	    FORGET_THRESHOLD = -0.9 #0.8 too slow with 15 mintutes
+	                            # 0.9
 	    DEFAULT_ALPHA = 0.3
 	    C = 0.25
 	    F = 1.0
@@ -476,7 +477,7 @@ define sequence trial_sequence
 
 define loop while_there_is_time_left
 	set source table
-	set repeat 50
+	set repeat 1000
 	set order random
 	set description "Repeatedly runs another item"
 	set cycles 1
