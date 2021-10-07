@@ -26,7 +26,7 @@ set font_size 18
 set font_italic no
 set font_family mono
 set font_bold no
-set experiment_path "C:\\Users\\landm\\Documents\\GitHub\\User_Models"
+set experiment_path "C:\\Users\\Steff\\Documents\\GitHub\\User_Models"
 set disable_garbage_collection yes
 set description "The main experiment item"
 set coordinates uniform
@@ -212,8 +212,8 @@ define inline_script slimstampen_setup
 	
 	    # Model constants
 	    LOOKAHEAD_TIME = 15000
-	    FORGET_THRESHOLD = -0.9 #0.8 too slow with 15 mintutes
-	                            # 0.9
+	    FORGET_THRESHOLD = -0.95 #0.8 too slow with 15 mintutes
+	                            # 0.9 too slow 
 	    DEFAULT_ALPHA = 0.3
 	    C = 0.25
 	    F = 1.0
@@ -476,6 +476,7 @@ define sequence trial_sequence
 	run present_trial always
 
 define loop while_there_is_time_left
+	set source_file ""
 	set source table
 	set repeat 1000
 	set order random
