@@ -26,7 +26,7 @@ set font_size 18
 set font_italic no
 set font_family mono
 set font_bold no
-set experiment_path "C:/Users/landm/Documents"
+set experiment_path "C:\\Users\\landm\\Documents\\GitHub\\User_Models"
 set disable_garbage_collection yes
 set description "The main experiment item"
 set coordinates uniform
@@ -65,17 +65,18 @@ define inline_script learning_session_setup
 	var.trial_num = 1
 	
 	# Settings
-	var.session_duration = 600000
+	var.session_duration = 900000
 	var.feedback_duration = 800
 	var.inter_trial_interval = 100
 	__end__
 	set _prepare ""
 
-define inline_script present_trial
+define inline_script perform_trial
 	set description "Executes Python code"
 	___run__
+	from libopensesame import widgets
 	trial_start_time = clock.time()
-	
+	first_run = True
 	# Get next fact from the model
 	next_fact, new = m.get_next_fact(current_time = trial_start_time)
 	prompt = next_fact.question
@@ -83,10 +84,25 @@ define inline_script present_trial
 	music = next_fact.song
 	# Show prompt
 	my_canvas = Canvas()
+	if var.trial_num == 1:
+		form = widgets.form(self.experiment,cols=[1,1], rows=[1,1],
+	    margins=(250,200,250,200), spacing=25)
+		checkbox = widgets.checkbox(form, text='I know some classical music.',  var='response')
+		button = widgets.button(form,text="Continue")
+		form.set_widget(checkbox, (0,0))
+		form.set_widget(button,(1,0))
+		form._exec()
+	
+		if 'response' == True:
+			m.FORGET_THRESHOLD = -0.95
+		else:
+			m.FORGET_THRESHOLD = -0.85	
+	
+		
 	my_canvas.text(prompt, font_size = 30)
 	if new:
 		my_canvas.text(answer, y = 50, font_size = 20)
-		my_canvas.text("Facts added:" +str(m.fact_counter)+"/25", y = 80, font_size = 20)
+		my_canvas.text("Facts added:" +str(m.fact_counter)+"/20", y = 80, font_size = 20)
 	my_canvas.prepare()
 	src = pool[music]
 	my_sampler = Sampler(src, volume=0.95)
@@ -212,7 +228,8 @@ define inline_script slimstampen_setup
 	
 	    # Model constants
 	    LOOKAHEAD_TIME = 15000
-	    FORGET_THRESHOLD = -0.9
+	    FORGET_THRESHOLD = -0.95 #0.8 too slow with 15 mintutes
+	                            # 0.9 too slow 
 	    DEFAULT_ALPHA = 0.3
 	    C = 0.25
 	    F = 1.0
@@ -472,11 +489,11 @@ define inline_script slimstampen_setup
 define sequence trial_sequence
 	set flush_keyboard yes
 	set description "Runs a number of items in sequence"
-	run present_trial always
+	run perform_trial always
 
 define loop while_there_is_time_left
 	set source table
-	set repeat 50
+	set repeat 1000
 	set order random
 	set description "Repeatedly runs another item"
 	set cycles 1
