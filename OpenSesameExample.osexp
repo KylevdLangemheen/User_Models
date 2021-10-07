@@ -71,11 +71,11 @@ define inline_script learning_session_setup
 	__end__
 	set _prepare ""
 
-define inline_script present_trial
+define inline_script perform_trial
 	set description "Executes Python code"
 	___run__
 	trial_start_time = clock.time()
-	
+	first_run = True
 	# Get next fact from the model
 	next_fact, new = m.get_next_fact(current_time = trial_start_time)
 	prompt = next_fact.question
@@ -83,10 +83,25 @@ define inline_script present_trial
 	music = next_fact.song
 	# Show prompt
 	my_canvas = Canvas()
+	if var.trial_num == 1:
+		from libopensesame import widgets
+		form = widgets.form(self.experiment)
+		checkbox = widgets.checkbox(form, text='I know some classical music.',  var='response')
+		button = widgets.button(form,text="Continue")
+		form.set_widget(checkbox, (0,0))
+		form.set_widget(button,(1,0))
+		form._exec()
+	
+		if 'response' == True:
+			m.FORGET_THRESHOLD = -0.95
+		else:
+			m.FORGET_THRESHOLD = -0.85	
+	
+		
 	my_canvas.text(prompt, font_size = 30)
 	if new:
 		my_canvas.text(answer, y = 50, font_size = 20)
-		my_canvas.text("Facts added:" +str(m.fact_counter)+"/25", y = 80, font_size = 20)
+		my_canvas.text("Facts added:" +str(m.fact_counter)+"/20", y = 80, font_size = 20)
 	my_canvas.prepare()
 	src = pool[music]
 	my_sampler = Sampler(src, volume=0.95)
@@ -473,10 +488,9 @@ define inline_script slimstampen_setup
 define sequence trial_sequence
 	set flush_keyboard yes
 	set description "Runs a number of items in sequence"
-	run present_trial always
+	run perform_trial always
 
 define loop while_there_is_time_left
-	set source_file ""
 	set source table
 	set repeat 1000
 	set order random
