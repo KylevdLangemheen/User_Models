@@ -26,7 +26,7 @@ set font_size 18
 set font_italic no
 set font_family mono
 set font_bold no
-set experiment_path "C:\\Users\\landm\\Documents\\GitHub\\User_Models"
+set experiment_path "C:\\Users\\Steff\\Documents\\GitHub\\User_Models"
 set disable_garbage_collection yes
 set description "The main experiment item"
 set coordinates uniform
@@ -123,7 +123,7 @@ define inline_script perform_trial
 		# The first keypress determines the response time
 		if keyboard_response == "" and not erased_answer:
 			rt = clock.time() - trial_start_time
-			my_sampler.stop()
+			
 		if key == "return":
 			break
 			
@@ -162,6 +162,7 @@ define inline_script perform_trial
 	my_canvas.text(keyboard_response, y = 100, color = feedback_color)
 	if not correct:
 		my_canvas.text(answer, y = 150)
+	my_sampler.stop()
 	my_canvas.prepare()
 	my_canvas.show()
 	clock.sleep(var.feedback_duration)
