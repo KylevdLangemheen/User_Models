@@ -74,7 +74,6 @@ define inline_script learning_session_setup
 define inline_script perform_trial
 	set description "Executes Python code"
 	___run__
-	from libopensesame import widgets
 	trial_start_time = clock.time()
 	first_run = True
 	# Get next fact from the model
@@ -84,14 +83,6 @@ define inline_script perform_trial
 	music = next_fact.song
 	# Show prompt
 	my_canvas = Canvas()
-	if var.trial_num == 1:
-		form = widgets.form(self.experiment,cols=[1,1], rows=[1,1],
-	    margins=(250,200,250,200), spacing=25)
-		checkbox = widgets.checkbox(form, text='I know some classical music.',  var='response')
-		button = widgets.button(form,text="Continue")
-		form.set_widget(checkbox, (0,0))
-		form.set_widget(button,(1,0))
-		form._exec()
 	
 		
 	my_canvas.text(prompt, font_size = 30)
