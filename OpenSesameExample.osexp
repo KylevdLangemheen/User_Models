@@ -93,11 +93,6 @@ define inline_script perform_trial
 		form.set_widget(button,(1,0))
 		form._exec()
 	
-		if 'response' == True:
-			m.FORGET_THRESHOLD = -0.95
-		else:
-			m.FORGET_THRESHOLD = -0.85	
-	
 		
 	my_canvas.text(prompt, font_size = 30)
 	if new:
@@ -105,7 +100,7 @@ define inline_script perform_trial
 		my_canvas.text("Facts added:" +str(m.fact_counter)+"/20", y = 80, font_size = 20)
 	my_canvas.prepare()
 	src = pool[music]
-	my_sampler = Sampler(src, volume=0.95)
+	my_sampler = Sampler(src, volume=0.5)
 	my_sampler.play()
 	
 	my_canvas.show()
@@ -229,8 +224,7 @@ define inline_script slimstampen_setup
 	
 	    # Model constants
 	    LOOKAHEAD_TIME = 15000
-	    FORGET_THRESHOLD = -0.95 #0.8 too slow with 15 mintutes
-	                            # 0.9 too slow 
+	    FORGET_THRESHOLD = -0.8 
 	    DEFAULT_ALPHA = 0.3
 	    C = 0.25
 	    F = 1.0
