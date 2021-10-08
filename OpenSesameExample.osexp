@@ -88,7 +88,7 @@ define inline_script perform_trial
 	my_canvas.text(prompt, font_size = 30)
 	if new:
 		my_canvas.text(answer, y = 50, font_size = 20)
-		my_canvas.text("Facts added:" +str(m.fact_counter)+"/20", y = 80, font_size = 20)
+		my_canvas.text("Facts added:" +str(m.fact_counter)+"/25", y = 80, font_size = 20)
 	my_canvas.prepare()
 	src = pool[music]
 	my_sampler = Sampler(src, volume=0.5)
@@ -478,6 +478,7 @@ define sequence trial_sequence
 	run perform_trial always
 
 define loop while_there_is_time_left
+	set source_file ""
 	set source table
 	set repeat 1000
 	set order random
