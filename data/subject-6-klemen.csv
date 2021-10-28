@@ -1,0 +1,138 @@
+trial,start_time,rt,correct,fact_id,question,answer,song,alpha
+1,9556.44980003126,2841.604499844834,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.3
+2,15999.810900073498,1488.791499985382,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.3
+3,19201.092300005257,1989.1136998776346,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.3
+4,23354.866300011054,1781.2536999117583,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.3
+5,27372.11379990913,3099.9430001247674,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3
+6,32708.339100005105,2628.022799966857,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.3
+7,41716.08579996973,2411.9820999912918,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3
+8,47026.99059993029,3470.6699000671506,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.3
+9,52587.460400070995,4346.724399831146,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.3
+10,63106.85490001924,4713.090599980205,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.349609375
+11,69357.94289992191,10907.96840004623,False,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.3
+12,82573.5017999541,3356.1712000519037,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.349609375
+13,88181.18639988825,6535.850000102073,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.3
+14,102223.77329994924,3197.6755000650883,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.349609375
+15,107752.24569998682,2676.5431999228895,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.3
+16,113043.96130004898,10960.28620004654,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.349609375
+17,126204.76959994994,5548.706199973822,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.39921874999999996
+18,133335.14479990117,inf,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.36250000000000004
+19,147546.5732999146,3328.7071001250297,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.344140625
+20,153267.78049999848,2246.7032000422478,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.303125
+21,158430.48710003495,1984.2876000329852,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.398828125
+22,163501.18010002188,3518.5207999311388,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.39921874999999996
+23,169275.61319991946,4107.943300157785,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.349609375
+24,175225.10019992478,10296.321999980137,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3
+25,191125.82700001076,4383.188500069082,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.39374999999999993
+26,197720.9157999605,1304.2989000678062,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3
+27,201302.70659993403,inf,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.4488281249999999
+28,211458.0016999971,2527.936999918893,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.3558593750000001
+29,215876.13229989074,inf,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.39921874999999996
+30,221879.2236999143,2264.1535999719054,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.45781249999999996
+31,226641.67029992677,inf,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.4414062499999999
+32,232071.7791998759,4277.604500064626,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.4433593749999999
+33,238374.49529999867,6199.321300024167,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.3
+34,253404.03559990227,2711.561300093308,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.42460937499999996
+35,258340.2040998917,3072.0065000932664,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.3
+36,264044.86969998106,2882.826500106603,False,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.4648437499999999
+37,269589.3586000893,1317.4742998089641,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.4449218749999999
+38,273272.38540002145,20466.37779986486,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.4644531249999999
+39,296373.5547999386,6472.968900110573,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.349609375
+40,305027.094299905,3097.8747999761254,False,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.47148437499999984
+41,310375.9053000249,3877.2173000033945,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.46796874999999993
+42,315952.8584999498,inf,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.5140625
+43,323473.24090008624,3635.21259999834,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.349609375
+44,329776.82369994,inf,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.49453124999999987
+45,336602.47409995645,inf,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.563671875
+46,346809.1996998992,2359.118000138551,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.46757812499999996
+47,351265.35469992086,3703.3991999924183,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.5765625
+48,356993.77469997853,3116.3625000044703,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.5191406249999999
+49,362438.60869994387,9556.091600097716,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.5210937499999999
+50,374294.5337998681,1917.8719001356512,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.375
+51,379182.2524999734,5022.7920999750495,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.576953125
+52,385801.4698000625,9712.476899847388,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.5542968749999999
+53,397816.2658000365,5762.450800044462,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.5359375
+54,405541.73679999076,3091.325999936089,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.5601562499999999
+55,410915.77000007965,8244.546599918976,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6265625
+56,421001.3802999165,2587.4124001711607,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.31796875
+57,426327.1616999991,2732.4020999949425,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.626171875
+58,430583.34370004013,5576.914399862289,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5140625
+59,438415.1596000884,12666.205199901015,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.585546875
+60,452873.8514999859,3042.575499974191,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.5597656249999999
+61,457968.1182000786,9990.712399827316,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6726562500000001
+62,470512.18069996685,5413.574600126594,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.5953125
+63,477799.2990000639,7407.359399832785,False,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.673046875
+64,487642.6967999432,inf,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.516015625
+65,494026.4196000062,2384.1917000245303,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6671875
+66,498160.60890001245,1274.855999974534,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.594921875
+67,500977.57810004987,2850.775299826637,False,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.38046875000000013
+68,505781.1523999553,3123.0655000545084,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.5539062499999999
+69,511048.664300004,1374.47899999097,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.39960937500000004
+70,514753.7620998919,4172.080600168556,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.694921875
+71,520495.8500000648,5185.015099821612,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.525
+72,527817.5017000176,2599.332199897617,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.69453125
+73,532413.7975000776,6183.992999838665,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.60703125
+74,540350.0673000235,3259.8015000112355,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.7308593750000001
+75,546022.656199988,4506.126000080258,False,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.5910156249999999
+76,552758.0637999345,2177.80840001069,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.68125
+77,556405.3678999189,1464.3612001091242,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.606640625
+78,559689.2113999929,4417.2131000086665,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.351953125
+79,566646.5048999526,8207.87340006791,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.5914062499999999
+80,577933.1515999511,3430.636400124058,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.546484375
+81,583455.1121999975,2305.063599953428,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.679296875
+82,587255.8458000422,1500.7255000527948,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.55703125
+83,590322.8660998866,2150.3801001235843,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.37578125000000007
+84,594621.3142999914,3037.9768998827785,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.38007812500000016
+85,599854.8210998997,10434.169700136408,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.616015625
+86,612288.4416000452,7524.167999858037,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6796875
+87,621650.0903000124,1297.1554999239743,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5710937500000001
+88,625141.300899908,4439.3897000700235,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.665625
+89,631534.2431999743,2765.4725001193583,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.685546875
+90,635923.9711000118,3919.66319992207,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.6808593750000002
+91,641886.4011000842,4513.343799859285,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5957031250000001
+92,649311.2778000068,4551.858299877495,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.6929687500000002
+93,655812.3407999519,3359.710599994287,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6859375
+94,661597.0294999424,3728.075799997896,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.6996093750000002
+95,667255.4605000187,1035.8994998969138,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5953125000000001
+96,670785.247300053,5460.134499939159,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.353125
+97,678404.968299903,4694.921900052577,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.7492187500000003
+98,686674.5883999392,3070.8645000122488,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6925781249999999
+99,691651.7604999244,3251.2048999778926,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.7988281250000003
+100,696857.3358000722,5240.516599966213,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.557421875
+101,704448.1452000327,3221.5976000297815,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.7984375000000004
+102,709684.1368998867,3349.3071000557393,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.6042968750000001
+103,715531.1807999387,6103.770700050518,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8042968750000004
+104,723605.1356000826,9932.319599902257,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.7304687499999999
+105,735391.029600054,2996.909399982542,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.7867187500000004
+106,740429.7096000519,2125.169700011611,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6933593749999999
+107,744429.6603999101,3316.3881001528352,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.7871093750000003
+108,749738.4510999545,5461.720500141382,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.6101562500000001
+109,758603.1506999861,3468.1323000695556,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8367187500000004
+110,763982.296000002,5119.304799940437,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.36445312500000004
+111,771435.6269999407,3218.187600141391,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8363281250000004
+112,777090.8935000189,2720.5590000376105,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6921874999999998
+113,782864.187899977,3431.1991999857128,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8367187500000004
+114,788252.2370999213,1547.9429999832064,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.6097656250000001
+115,791779.9662000034,3336.541899945587,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8488281250000004
+116,797123.4814999625,2808.3293000236154,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.5328124999999999
+117,802145.2472999226,3030.2018001675606,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8601562500000004
+118,807144.0636999905,3003.2192000653595,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6871093749999999
+119,812665.7718999777,3218.3362001087517,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8644531250000004
+120,817846.9791999087,3205.1463001407683,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.38203125000000016
+121,823464.1859000549,3197.5320000201464,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8765625000000005
+122,828633.1140000839,1779.0071999188513,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.56015625
+123,834766.9597000349,3786.054400028661,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8839843750000005
+124,840589.4959999714,2498.329400084913,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6624999999999999
+125,845438.6950999033,2734.374900115654,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8828125000000004
+126,850992.7208998706,2608.041600091383,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3753906250000001
+127,856611.3251000643,2945.167299825698,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8824218750000005
+128,861617.626799969,2548.0681001208723,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.33984375
+129,866489.9766999297,2710.223500151187,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8656250000000004
+130,871240.3575000353,8121.274299919605,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.35429687500000007
+131,881515.5481998809,3014.128000009805,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8535156250000003
+132,886588.3668998722,2601.999100064859,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.6394531249999998
+133,890767.4904000014,2739.595500053838,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8539062500000003
+134,895792.2282000072,1636.7929999250919,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.48320312499999996
+135,900379.8841999378,2811.5455000661314,True,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.8582031250000003
+136,905468.3387000114,2304.420900065452,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5152343749999999
+
