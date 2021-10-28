@@ -84,8 +84,10 @@ testing_data_subset$correct<-as.integer(testing_data_subset$correct)
 
 mean.Alpha <- with(training_data,aggregate(list(alpha=alpha),list(answer=answer),mean))
 mean.correct <- with(testing_data,aggregate(list(correct=correct),list(answer=answer),mean))
+mean.RT <- with(testing_data,aggregate(list(rt=rt),list(answer=answer),mean))
 
 mean.correct_subset <- with(testing_data_subset,aggregate(list(correct=correct),list(answer=answer),mean))
+mean.RT_subset <- with(testing_data_subset,aggregate(list(rt=rt),list(answer=answer),mean))
 
 
 composers_alpha<- ggplot(data=mean.Alpha, aes(x=answer, y=alpha&ill=answer)) +
