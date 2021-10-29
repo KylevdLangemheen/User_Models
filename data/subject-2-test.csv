@@ -1,0 +1,27 @@
+trial,start_time,rt,correct,fact_id,question,answer,song,alpha
+1,8624.791300157085,5883.352200035006,False,22,What is the name of the composer?,vivaldi,.\music\vivaldi_The_Four_Seasons _Summer_in_G_Minor.ogg,0.3
+2,16776.853000046685,2418.9906001556665,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.3
+3,21356.899400008842,5116.665899986401,True,23,What is the name of the composer?,vivaldi,.\music\vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.3
+4,29382.531500188634,3276.572899892926,False,12,What is the name of the composer?,chopin,.\music\chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.3
+5,35336.03570004925,6167.5122999586165,False,1,What is the name of the composer?,bach,.\music\bach_Air_on_the_G_String.ogg,0.3
+6,46646.288900170475,2342.9068999830633,True,15,What is the name of the composer?,chopin,.\music\chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.3
+7,50645.490400027484,1967.3413999844342,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3
+8,54699.24440002069,3271.729800151661,False,19,What is the name of the composer?,mozart,.\music\mozart_fantasy.ogg,0.3
+9,67914.22200016677,3781.0676998924464,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.3
+10,76359.61710009724,12978.95299992524,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.3
+11,91201.38220000081,2441.7274000588804,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.3
+12,95572.44530017488,3874.117099912837,True,5,What is the name of the composer?,bach,.\music\bach_Sheep_may_safely_graze.ogg,0.3
+13,105465.73520009406,9021.02870005183,False,7,What is the name of the composer?,beethoven,.\music\beethoven_emperor.ogg,0.3
+14,123083.02210015245,1771.651400020346,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.3
+15,131162.036200054,2750.9832999203354,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.3
+16,135658.69319997728,2614.128100220114,False,18,What is the name of the composer?,mozart,.\music\mozart_Andente.ogg,0.3
+17,143104.56750006415,5820.8548000548035,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.3
+18,150779.8475001473,3400.504699908197,False,17,What is the name of the composer?,mozart,.\music\mozart_Allegro_con_brio.ogg,0.3
+19,156558.86720004492,5690.082099987194,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3
+20,164227.04360005446,3734.2483000829816,True,8,What is the name of the composer?,beethoven,.\music\beethoven_fur_elise.ogg,0.3
+21,170398.04390002973,2869.4287000689656,False,10,What is the name of the composer?,beethoven,.\music\beethoven_presto.ogg,0.3
+22,174892.21770013683,5319.33719990775,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.3
+23,181875.61740004458,1725.3350000828505,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.3
+24,185934.31839998811,3268.851700006053,False,16,What is the name of the composer?,mozart,.\music\mozart_Adagio.ogg,0.3
+25,191331.22920012102,4460.129800019786,False,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.3
+

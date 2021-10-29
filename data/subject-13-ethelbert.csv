@@ -1,0 +1,45 @@
+trial,start_time,rt,correct,fact_id,question,answer,song,alpha
+1,13335.729946000356,inf,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.3
+2,97928.75009999989,9331.988506000926,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.3
+3,117191.7547789999,58174.051699999836,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.3
+4,183181.75408300158,12215.722203000041,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.3
+5,202478.71090600165,15200.312741999369,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.300390625
+6,226522.01101000173,34464.94122600052,True,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.3
+7,268122.6828780018,2514.908261000528,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.29960937499999996
+8,285731.2580550024,2545.1973669987638,True,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.3
+9,295020.7179950012,43780.71986999927,True,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3
+10,345394.2603840005,2386.563053001766,True,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.250390625
+11,355613.91194899986,6462.968189000152,True,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3
+12,380151.56745400233,inf,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.35
+13,412509.21910300164,4225.546679997933,True,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.32539062499999993
+14,424348.9329969998,16462.140711002517,False,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.3046874999999999
+15,448129.6810060012,11340.887852999032,False,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.369140625
+16,463408.28207800223,6909.025007000309,True,18,What is the name of the composer?,bach,./music/bach_Aria_Da_Capo.ogg,0.3
+17,491296.41842099954,3686.7452780024614,False,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3749999999999999
+18,499683.0750709996,16038.701573001163,True,18,What is the name of the composer?,bach,./music/bach_Aria_Da_Capo.ogg,0.3
+19,518551.11100700015,4450.2309990020585,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.37187499999999996
+20,527653.3128980009,9078.382870000438,True,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.3
+21,565859.474191002,6935.851484999177,True,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.41445312499999987
+22,578631.621722001,9149.432991998736,True,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.3
+23,591076.6918100016,14492.178467000485,False,18,What is the name of the composer?,bach,./music/bach_Aria_Da_Capo.ogg,0.349609375
+24,609846.5402790025,5152.037577998242,False,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.42656249999999984
+25,619303.3036430024,19151.116711000213,False,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.30507812499999987
+26,643514.9093850014,12100.06588900066,True,18,What is the name of the composer?,bach,./music/bach_Aria_Da_Capo.ogg,0.38046875
+27,659090.4264900018,8713.105713999597,False,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.32539062499999993
+28,672623.0480939994,3615.377783000469,True,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.4511718749999999
+29,680582.3690489996,8962.988453000551,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.4214843749999999
+30,693844.6915820022,11909.43492599763,False,18,What is the name of the composer?,bach,./music/bach_Aria_Da_Capo.ogg,0.382421875
+31,726169.8234790019,2513.2476229992462,False,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.47578124999999993
+32,731853.9523050021,1918.7644779995317,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.42109374999999993
+33,740912.2098299995,11490.72105400043,False,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.3749999999999999
+34,756857.8864709998,inf,False,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.500390625
+35,767652.558324,9595.647636000649,True,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.27578125
+36,782683.4630420017,inf,False,18,What is the name of the composer?,bach,./music/bach_Aria_Da_Capo.ogg,0.43203125
+37,804147.4971220014,5182.351956998929,True,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.5343749999999999
+38,816057.1833940012,5819.474473999464,False,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.4003906249999999
+39,830866.402683001,4506.646902998909,True,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.5714843749999999
+40,843980.8967400022,18648.94942200044,False,18,What is the name of the composer?,bach,./music/bach_Aria_Da_Capo.ogg,0.469140625
+41,867891.212595001,4468.331877000281,True,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.58515625
+42,875988.0391459992,21522.75776100217,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.44648437499999993
+43,901489.8083890002,inf,False,17,What is the name of the composer?,vivaldi,./music/vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.6097656250000001
+

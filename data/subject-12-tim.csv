@@ -1,0 +1,104 @@
+trial,start_time,rt,correct,fact_id,question,answer,song,alpha
+1,13274.94716000001,11395.02987800006,True,19,What is the name of the composer?,beethoven,./music/beethoven_no_14_moonlight.ogg,0.3
+2,34897.34242200211,3833.2412189993192,True,19,What is the name of the composer?,beethoven,./music/beethoven_no_14_moonlight.ogg,0.3
+3,41703.63285100029,19042.04787799972,True,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.3
+4,64129.15949700255,2169.9124400001892,True,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.3
+5,68980.48905200267,12896.238049997919,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.3
+6,91667.11609599952,2149.877682000806,True,19,What is the name of the composer?,beethoven,./music/beethoven_no_14_moonlight.ogg,0.250390625
+7,96747.98296399968,1407.4279540000134,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.3
+8,100610.54991400306,25965.729424999154,True,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.3
+9,130971.52352500052,1531.9516620002105,True,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.250390625
+10,135269.4523909995,1939.639033000276,True,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.3
+11,139965.56385700023,23024.126635002176,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.3
+12,166942.63856600082,1126.577286999236,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.250390625
+13,170840.28574200056,3385.7451020012377,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.3
+14,176781.37135200086,24437.948327999038,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.3
+15,211709.6573400013,2632.0922049999353,False,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.349609375
+16,217392.0159469999,2879.650261002098,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.3
+17,222811.05779500285,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.32539062499999993
+18,234086.14579000277,24712.560932999622,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.3
+19,261202.43222900172,2832.409963000857,True,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.365625
+20,266618.2462430006,3779.0899829997215,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.3
+21,278834.4085420031,4672.985837998567,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.300390625
+22,286709.18207100115,19688.13337699976,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.3
+23,317100.22142700106,3607.890974999522,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.3749999999999999
+24,327709.2878799995,4570.20101300074,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.3
+25,334611.4101370004,3602.6351590007544,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.349609375
+26,343551.204839001,4273.051557000144,False,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.390234375
+27,353529.7688339997,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.4003906249999999
+28,365423.3046580012,5969.02362399851,True,12,What is the name of the composer?,beethoven,./music/beethoven_fur_elise.ogg,0.3
+29,378422.3384249999,3566.0099670021445,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.37421875000000004
+30,386846.5972280028,1593.4670989991282,True,12,What is the name of the composer?,beethoven,./music/beethoven_fur_elise.ogg,0.3
+31,390933.92669100285,5893.78801699786,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.344140625
+32,404958.6476980003,inf,True,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.39531249999999996
+33,414645.29246300296,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.42499999999999993
+34,426300.9620660014,1473.7785100005567,False,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.35
+35,430109.8725070006,16363.077714999206,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.3
+36,457963.7284050004,inf,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.374609375
+37,467799.9373300008,5353.425971999997,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.3
+38,476129.06060200115,2011.2030300005572,True,12,What is the name of the composer?,beethoven,./music/beethoven_fur_elise.ogg,0.250390625
+39,480347.1206710019,6797.649639000127,False,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.39374999999999993
+40,490116.01636600244,5453.462899997248,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.4746093749999999
+41,497635.50025600125,3392.774965999706,False,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.391015625
+42,503094.4473939999,9504.466007001582,False,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.4449218749999999
+43,514692.75996500073,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.4976562499999999
+44,526474.5529250031,3057.5423699992243,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.410546875
+45,531686.1766790026,2520.2450199975865,True,19,What is the name of the composer?,beethoven,./music/beethoven_no_14_moonlight.ogg,0.23593749999999997
+46,536991.2832120026,5597.950066999998,False,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.4804687499999999
+47,544571.8487090017,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.49882812499999996
+48,555878.4031780015,inf,False,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.349609375
+49,563423.8147690012,1301.510853001615,False,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.40937500000000004
+50,567070.7406630027,3765.1755599981407,False,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.4863281249999999
+51,572926.3958330011,5642.344025000115,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.42421875
+52,581263.9600170006,4084.8730649994686,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.41328124999999993
+53,587937.9711960028,4010.027624997776,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.50234375
+54,593851.5014160003,1700.3649079997558,True,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.20078125
+55,597848.5815380008,2094.926953999675,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.20078125
+56,602149.9024149998,inf,False,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.38359374999999996
+57,611977.2536180026,3843.4775189998327,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.448828125
+58,618366.0703280002,2697.925219999859,False,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.49921874999999993
+59,623360.5743890002,1858.5989620005712,False,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.4339843750000001
+60,627258.727032,3057.860961002065,False,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.551953125
+61,632987.9196120019,6114.742661000462,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.3
+62,659832.979666,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6015625000000001
+63,669068.5457159998,2131.322995002847,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.3
+64,675066.558747003,4280.371967997751,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6074218750000001
+65,681321.1366270006,3115.7310260023223,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.45703125
+66,687162.2880909999,2571.273158002412,True,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.49882812499999996
+67,691988.9799350022,3741.953138000099,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.384765625
+68,700061.8908610013,2588.4115980006754,False,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6195312500000002
+69,704770.1442920007,5289.564413000247,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.42070312499999996
+70,712162.3770799998,inf,False,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.44687500000000013
+71,721696.1916960026,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6449218750000002
+72,730045.8782240021,3069.149758997839,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.461328125
+73,735364.8917070022,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6945312500000003
+74,742539.6227720012,3318.4371499991976,True,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.5421875
+75,748489.14401,3091.0745569999563,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7128906250000003
+76,753493.949830001,1882.2738050002372,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.250390625
+77,757525.1400540001,3653.473946000333,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7179687500000003
+78,763071.6105009997,2357.892394000315,True,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.5332031250000001
+79,768788.1790650026,2456.9442629981786,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7175781250000003
+80,773049.9141159998,4248.317377001513,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.4964843750000001
+81,779422.5854860015,2465.1924059981247,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7304687500000003
+82,784228.0242060006,3721.508597001899,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.4703124999999999
+83,790137.0999210012,2471.8083560001105,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7308593750000003
+84,794358.5967079998,inf,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.5007812500000001
+85,801549.2923010024,2929.4571119971806,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7343750000000003
+86,806281.0673269996,inf,False,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.43281250000000004
+87,820060.5131390003,994.7025410000933,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7214843750000003
+88,823502.1911620024,4948.00324300013,False,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.5335937500000001
+89,831131.7832380009,inf,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.47929687499999996
+90,837131.5201500001,2421.286889999523,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7210937500000003
+91,841326.3219440014,3988.3908330012346,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.47968750000000004
+92,847553.2374510004,inf,False,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.5253906250000001
+93,854667.8670100009,1364.324375001248,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6925781250000004
+94,858129.1234370001,4168.137339001987,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.4511718750000001
+95,864337.4699280029,4262.558933998691,True,14,What is the name of the composer?,beethoven,./music/beethoven_emperor.ogg,0.5339843750000001
+96,871022.002695001,inf,True,4,What is the name of the composer?,mozart,./music/mozart_Andente.ogg,0.5265625000000002
+97,876157.3462920024,4988.633893997758,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.50390625
+98,883057.2838840017,2744.799559000996,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6945312500000004
+99,888860.5765610009,5969.479449999286,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.5042968750000001
+100,897142.6837530016,3191.0505819978425,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.45859375000000013
+101,902171.4836600004,2868.143157000304,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6949218750000004
+102,906753.251039001,4520.78780499869,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.504296875
+

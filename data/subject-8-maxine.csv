@@ -1,0 +1,143 @@
+trial,start_time,rt,correct,fact_id,question,answer,song,alpha
+1,14554.552552999667,5550.4336430003605,False,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.3
+2,26428.626549999535,3724.680930999966,True,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.3
+3,33649.42945199982,5471.184486999846,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.3
+4,42023.71099900029,1783.6677859995689,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.3
+5,46652.11418299987,7476.731488999576,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.3
+6,63549.86459700012,3870.6909739994444,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.3
+7,73372.39505100023,3754.328558999987,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.3
+8,81999.809121,3261.470204000041,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.3
+9,87935.80173400005,2634.5379750000575,True,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.29414062499999993
+10,95342.34544399987,2951.181202999578,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.324609375
+11,100996.78607700026,3042.496198999288,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.3
+12,113716.87001499959,2045.7694249998895,True,12,What is the name of the composer?,beethoven,./music/beethoven_fur_elise.ogg,0.3
+13,120386.31663100023,1840.6593219997303,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.3
+14,125089.03761199964,2034.8253379997914,True,12,What is the name of the composer?,beethoven,./music/beethoven_fur_elise.ogg,0.3
+15,130258.00747299945,8338.389414000616,False,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.349609375
+16,141409.65477000008,3520.976719999453,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.349609375
+17,147631.51091799955,2457.677434000303,True,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.3
+18,154386.97227899957,1601.0478850002983,True,11,What is the name of the composer?,vivaldi,./music/vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3
+19,162299.69870999956,1504.265940000565,True,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.3
+20,166697.1583530003,1344.526823999331,True,11,What is the name of the composer?,vivaldi,./music/vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3
+21,170871.69939399973,2481.0607139997883,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.3125
+22,176530.07355199952,2183.3007280001766,True,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.250390625
+23,181718.61670199997,1997.6277599998866,True,12,What is the name of the composer?,beethoven,./music/beethoven_fur_elise.ogg,0.250390625
+24,186458.17896500012,4414.464466999547,False,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.39921874999999996
+25,195889.47049099987,3653.070626999601,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.38125
+26,201953.33347299948,3027.496674000751,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.3
+27,212870.38176700025,2526.605826999934,False,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.349609375
+28,221035.56200099958,2354.261633000511,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.3
+29,225955.62432299994,4058.841191999818,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.42460937499999996
+30,237239.47709099957,2390.267153999972,False,11,What is the name of the composer?,vivaldi,./music/vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.349609375
+31,242401.10455600006,4983.302067999815,True,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.3437499999999999
+32,250336.72848900006,3835.5448359998118,False,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.405859375
+33,256947.84874800008,2554.5488269999623,True,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.35078125000000004
+34,262333.6876839994,4654.542967000452,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.44921875
+35,269503.52439000015,2248.7670329992543,True,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.3
+36,274533.1369659998,1618.7318220000016,False,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.349609375
+37,278689.84047399956,1525.0046450000373,True,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.3
+38,282852.6301760003,1682.1123849995201,True,11,What is the name of the composer?,vivaldi,./music/vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.30000000000000004
+39,286941.2180979998,2564.4286260003573,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.3
+40,294026.74412899977,2934.6964619999053,False,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.4296875
+41,299241.26232199976,1626.600865000044,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.3
+42,305536.29132399964,4629.268464999797,False,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.49882812499999996
+43,315520.44812199986,2788.4343859995715,False,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.38164062499999984
+44,321236.5885439995,3872.5177770002047,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.52421875
+45,329598.55644599977,1410.1546029996825,False,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.39921874999999996
+46,337967.682122,1961.4858459999668,False,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.349609375
+47,342497.5742890001,6816.719274999748,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.546484375
+48,354876.2001409996,3164.9088270005304,False,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.47929687499999996
+49,360322.22810700024,4953.356312999851,False,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.349609375
+50,368212.62383399974,7237.784312999749,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.571875
+51,377891.957238,3197.972081999993,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.4332031249999999
+52,383678.2714589999,9111.617325999774,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.50390625
+53,395478.0403220002,7224.07515299978,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6214843750000001
+54,405408.21103799954,1712.604608000198,True,25,What is the name of the composer?,beethoven,./music/beethoven_presto.ogg,0.3011718750000001
+55,410246.54597399966,3476.1310889998567,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6640625000000001
+56,416115.98513599986,4236.348159000045,False,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.4312499999999998
+57,422949.86303499993,4845.927766999928,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6667968750000001
+58,430820.6360909999,5159.148194999958,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.521484375
+59,438327.28871699964,3388.346407999983,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6734375
+60,444245.5682009995,2789.4997880002484,True,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.32499999999999996
+61,453058.08839400014,2236.4599739994737,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.4296874999999999
+62,458835.7800019994,3120.1878910005908,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6902343750000001
+63,464627.4923350002,1906.0067689997377,False,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.39921874999999996
+64,468801.89503200015,2809.392876999511,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7148437500000001
+65,476277.8196919999,inf,True,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.4316406249999998
+66,484477.6526229998,3197.1279230001965,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7324218750000001
+67,490407.04683999956,4966.269040000043,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.56953125
+68,497877.9825439997,2846.894244000374,False,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7328125000000001
+69,503117.9582229997,3546.7012810004526,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.573828125
+70,508881.3192790003,2661.760819999501,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7410156250000001
+71,514161.4818469998,4079.749665000243,False,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.336328125
+72,523466.74191199965,4419.6453840003815,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7484375000000001
+73,530246.384774,1787.4357629998121,False,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.414453125
+74,534299.3086569995,2282.4864110007184,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7480468750000001
+75,539041.3059359998,3083.151875000098,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.5750000000000001
+76,544280.2737370003,inf,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.43398437499999987
+77,552527.6436120003,3041.3298789998516,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7625000000000002
+78,558075.9870239999,2559.6265590002295,True,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.4312499999999998
+79,562936.0066059999,2651.517070999951,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7621093750000002
+80,567931.0402949995,8601.951390000177,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.575390625
+81,579233.0271169995,2579.0558380003786,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7617187500000002
+82,584136.0158549997,3413.996920000529,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.415625
+83,590455.76832,2885.5644059994956,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7621093750000002
+84,595939.4753480001,3036.9381729997694,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.57578125
+85,601478.4476670002,3035.6445539999986,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7632812500000002
+86,606856.7751620003,1814.7308279994177,True,11,What is the name of the composer?,vivaldi,./music/vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.2503906250000001
+87,611012.5038309998,2674.3176760000642,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7878906250000003
+88,616068.9913469997,3053.6689740001457,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.4492187499999999
+89,621841.7276979999,2743.3065140002873,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.8046875000000003
+90,626907.5412459997,2205.968185000471,True,16,What is the name of the composer?,beethoven,./music/beethoven_beethoven.ogg,0.29960937499999996
+91,631739.9863210003,2723.2902169999434,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.8105468750000003
+92,637603.1259399997,6498.767050000373,False,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6253906250000001
+93,647077.6179249997,2299.7025740005774,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.8101562500000004
+94,651945.2850130001,3325.3431129996898,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6500000000000001
+95,657436.2926399999,2156.4678449995117,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.8050781250000004
+96,662063.0292329998,3204.2404740004567,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6621093750000001
+97,667375.0500149999,1121.6988659999333,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7554687500000004
+98,670756.5088780002,3383.4235819994938,True,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.4433593749999998
+99,676407.893865,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.6625000000000001
+100,682306.6148999997,3576.0830139997415,False,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.35468750000000004
+101,690579.9038079994,1963.3881100007566,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.41523437500000004
+102,694881.2090749998,1077.0761359999888,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7300781250000004
+103,698339.1374809998,2814.2106659997953,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.669140625
+104,703330.6331069998,inf,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.44960937499999987
+105,709198.5800259999,2288.3904859999893,True,12,What is the name of the composer?,beethoven,./music/beethoven_fur_elise.ogg,0.20078125
+106,713975.2118569996,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7187500000000001
+107,721076.4356600002,3076.091443999787,False,1,What is the name of the composer?,mozart,./music/mozart_fantasy.ogg,0.29999999999999993
+108,726640.775887,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7683593750000002
+109,733003.8599849995,3110.1661729998887,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7390625000000003
+110,739079.3960569999,2319.204780000262,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7679687500000002
+111,743603.1929589999,2827.511761000147,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7425781250000002
+112,748781.791425,2225.6628939994844,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7183593750000001
+113,753810.3446790001,1269.9797189998208,True,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.4429687499999998
+114,757419.481209,2623.798810000182,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7460937500000001
+115,762268.3888209994,1447.7593380006729,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7062500000000002
+116,766553.2566450002,inf,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.4914062499999998
+117,772671.484378,2686.6851499999175,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7566406250000002
+118,777710.7959229997,2861.3284960001474,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7066406250000001
+119,782877.0050089997,2314.8692320000846,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7562500000000002
+120,787338.6194499999,2295.1004090000642,False,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.4398437500000001
+121,792214.3248639995,inf,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.35820312500000007
+122,804303.7164959996,inf,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7070312500000001
+123,810617.20436,2568.815992000047,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7558593750000002
+124,815692.4645049995,2287.8760470001725,False,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.5128906249999999
+125,820386.3571009997,2990.012152000447,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7480468750000001
+126,825502.290976,3214.3669339993503,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7578125000000002
+127,830883.8980119999,2590.8062170001213,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7468750000000001
+128,840832.6941109999,4070.6493830002146,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7628906250000002
+129,847696.1120159995,3727.190074000624,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7597656250000001
+130,853606.458661,inf,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.5359375
+131,859800.9688229995,3530.7479590000585,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.8031250000000002
+132,865624.5140029996,2750.3351800005184,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7507812500000001
+133,870746.7642370003,2855.8291979997884,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.7996093750000003
+134,875735.7739799999,2983.214109000168,True,3,What is the name of the composer?,chopin,./music/chopin_Frederic_Chopin_Impromptu_No._1.ogg,0.4394531250000001
+135,881977.7668360003,2820.9991459997837,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.8078125000000003
+136,887076.3355660001,2381.9594969991595,True,23,What is the name of the composer?,chopin,./music/chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7441406250000001
+137,891740.8340109996,3421.8708719999995,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.8277343750000004
+138,897342.07169,2267.6157120004063,True,7,What is the name of the composer?,mozart,./music/mozart_Adagio.ogg,0.535546875
+139,902024.3987529994,3588.5545410000486,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.8398437500000003
+140,907731.4018430007,1728.2612029993907,True,15,What is the name of the composer?,chopin,./music/chopin_Chopin_Piano_Sonata_No.1.ogg,0.39726562499999984
+141,911814.1157280006,2807.0229939984856,True,10,What is the name of the composer?,mozart,./music/mozart_Allegro_con_brio.ogg,0.8425781250000003
+

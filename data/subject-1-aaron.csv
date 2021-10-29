@@ -1,0 +1,116 @@
+trial,start_time,rt,correct,fact_id,question,answer,song,alpha
+1,12582.918799947947,8161.965799983591,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.3
+2,23406.594399828464,1719.616899965331,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.3
+3,29707.42299989797,6918.155699968338,True,18,What is the name of the composer?,mozart,.\music\mozart_Andente.ogg,0.3
+4,40887.845299905166,1452.1482000127435,True,18,What is the name of the composer?,mozart,.\music\mozart_Andente.ogg,0.3
+5,46491.33019987494,11465.355799999088,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.3
+6,60839.74239998497,6837.385999970138,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.3
+7,70979.40710000694,7569.423999870196,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.3
+8,81187.02690000646,2422.034899936989,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.3
+9,86234.70099992119,4706.408299971372,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.349609375
+10,93209.82409990393,1442.839700030163,True,18,What is the name of the composer?,mozart,.\music\mozart_Andente.ogg,0.250390625
+11,97247.61449988,6549.086200073361,True,10,What is the name of the composer?,beethoven,.\music\beethoven_presto.ogg,0.3
+12,107959.02669988573,1795.3331000171602,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.3
+13,113431.45089992322,1247.6965999230742,True,10,What is the name of the composer?,beethoven,.\music\beethoven_presto.ogg,0.3
+14,118210.00469988212,1026.661700103432,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.3
+15,122834.39319999889,6128.9956998080015,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.349609375
+16,131604.9168999307,7729.598900070414,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.39921874999999996
+17,142199.51009983197,2096.383900148794,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.250390625
+18,147085.8685998246,3013.0435000173748,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.3
+19,154533.76559983008,1717.541899997741,True,23,What is the name of the composer?,vivaldi,.\music\vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.3
+20,162554.30620000698,inf,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.3
+21,169543.28430001624,2342.7195998374373,True,23,What is the name of the composer?,vivaldi,.\music\vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.3
+22,174473.14709983766,6226.675200043246,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.4488281249999999
+23,184040.3141998686,2166.299300035462,False,10,What is the name of the composer?,beethoven,.\music\beethoven_presto.ogg,0.349609375
+24,189410.13899981044,1730.0141002051532,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.250390625
+25,194091.92629996687,5757.990799844265,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.39921874999999996
+26,202740.28849997558,2859.9088999908417,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.4671875
+27,208133.49229982123,13352.151600178331,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.3
+28,224638.0182998255,inf,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.349609375
+29,233198.32500000484,inf,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.3
+30,257894.91509995423,10589.60899990052,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.43632812499999996
+31,270675.01479992643,5417.503000004217,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.491796875
+32,278368.43989999034,2109.916399931535,True,23,What is the name of the composer?,vivaldi,.\music\vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.250390625
+33,283124.40430000424,2457.3725999798626,True,10,What is the name of the composer?,beethoven,.\music\beethoven_presto.ogg,0.30000000000000004
+34,288827.794799814,2102.3543002083898,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.34921875
+35,297529.75989994593,5187.633099965751,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.4390624999999999
+36,305082.67429983243,4451.656599994749,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.52578125
+37,312455.20549989305,8338.424100074917,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.349609375
+38,327902.10939990357,10244.075000053272,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.550390625
+39,340507.5966999866,13617.020099889487,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.46367187499999996
+40,356473.4034999274,inf,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.5750000000000001
+41,380492.221100023,13187.61649983935,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.39609375
+42,396213.0067998078,2973.6537002027035,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.5746093750000001
+43,401913.6005998589,6257.2656001430005,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.51328125
+44,410595.4292998649,1348.6327000427991,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.398828125
+45,414294.3790999707,10316.455999854952,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6242187500000002
+46,425572.67089979723,inf,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.5378906250000001
+47,434150.5351997912,inf,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6410156250000002
+48,439291.7956998572,inf,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.398046875
+49,460509.56649985164,5841.144300065935,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6906250000000003
+50,468531.58979979344,inf,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.5468750000000001
+51,481146.04409993626,11492.181899957359,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.7027343750000002
+52,494987.5950999558,1787.5014999881387,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.3984375
+53,503012.3020999599,3281.4692000392824,False,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.7140625000000003
+54,507257.2488998994,inf,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.5964843750000002
+55,516640.4569998849,1639.1708001028746,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.7136718750000003
+56,520161.131599918,4746.854200027883,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6031250000000001
+57,527047.2148999106,1706.4068000763655,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.7078125000000003
+58,530634.0786998626,7025.45650000684,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.43515625
+59,538621.0004999302,2157.8919999301434,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.7074218750000003
+60,543491.3990998175,4891.41790010035,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6152343750000001
+61,550985.3983998764,1533.5991999600083,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6578125000000002
+62,554266.6247999296,3973.334899870679,True,18,What is the name of the composer?,mozart,.\music\mozart_Andente.ogg,0.29999999999999993
+63,562292.6731999032,inf,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6171875000000001
+64,570584.9342998117,4079.2937001679093,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.45976562500000007
+65,579274.4126999751,5539.2213999293745,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6667968750000002
+66,585775.3800998908,1643.5414000879973,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.34882812500000004
+67,589557.455800008,3932.665899861604,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7164062500000002
+68,595730.354399886,inf,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6582031250000002
+69,601158.7967998348,2129.2028999887407,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7160156250000003
+70,606626.6061998904,4244.845200097188,True,10,What is the name of the composer?,beethoven,.\music\beethoven_presto.ogg,0.349609375
+71,613839.2754998058,2350.1269000116736,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7156250000000003
+72,618136.0942998435,4247.22160003148,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.47343750000000007
+73,625067.339199828,2095.7244001328945,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6785156250000003
+74,629483.8260000106,2364.535699831322,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6085937500000002
+75,634085.5169999413,5751.565499929711,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.29999999999999993
+76,643153.1978999265,1520.3134999610484,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.20078125
+77,647608.0624000169,5078.706099884585,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6789062500000003
+78,657649.5570999105,6680.3168000187725,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5183593750000002
+79,666437.3054997995,3983.4567999932915,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6792968750000002
+80,672427.4232999887,3410.0146999116987,True,18,What is the name of the composer?,mozart,.\music\mozart_Andente.ogg,0.3082031249999999
+81,678877.9796999879,inf,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5312500000000001
+82,697911.5615999326,2244.8672999162227,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6750000000000003
+83,702280.2947999444,inf,False,10,What is the name of the composer?,beethoven,.\music\beethoven_presto.ogg,0.36875
+84,708580.6003999896,inf,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6582031250000002
+85,716005.001799902,11176.486399956048,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5683593750000001
+86,729059.0023999102,2500.3625000827014,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6210937500000001
+87,733370.7277998328,2297.7024000138044,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6496093750000003
+88,737784.998399904,inf,False,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5937500000000001
+89,742950.6912999786,2002.6141998823732,True,23,What is the name of the composer?,vivaldi,.\music\vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.20078125
+90,746949.4572000112,681.1737997923046,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5933593750000001
+91,750029.9780999776,12786.449800012633,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.3121093749999999
+92,764840.8600999974,14265.583299798891,False,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.6992187500000003
+93,781285.6697000097,5626.154499826953,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.6375000000000002
+94,788967.6973000169,5152.970999944955,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7425781250000004
+95,796016.228399938,782.3665998876095,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.6253906250000002
+96,799482.9992000014,3619.440799811855,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7429687500000004
+97,805234.7406998742,4046.167700085789,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6707031250000002
+98,811901.4810998924,3672.3140000831336,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7550781250000004
+99,817409.468599828,1987.2334999963641,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6703125000000002
+100,821137.5159998424,2054.767500143498,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7546875000000004
+101,825075.8900998626,inf,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.6695312500000002
+102,834536.4810000174,2396.2669000029564,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7542968750000004
+103,838774.3439998012,1009.5634001772851,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.6199218750000002
+104,842272.5463998504,2066.6724001057446,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6699218750000002
+105,846032.9659997951,3415.7480001449585,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.8039062500000005
+106,851302.6298999321,5116.296200081706,True,10,What is the name of the composer?,beethoven,.\music\beethoven_presto.ogg,0.39335937500000007
+107,859409.501099959,1654.8929999116808,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7542968750000004
+108,862909.7304998431,inf,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6703125000000002
+109,877027.6579998899,6374.476100085303,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7546875000000004
+110,885331.7628998775,2228.135700104758,True,20,What is the name of the composer?,mozart,.\music\mozart_requim.ogg,0.5703125000000001
+111,890933.6641000118,inf,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.6753906250000001
+112,896372.8571999818,1298.0007999576628,True,14,What is the name of the composer?,chopin,.\music\chopin_Fantasia_On_Polish_Airs.ogg,0.7230468750000004
+113,899914.0333998948,3421.7040000949055,True,18,What is the name of the composer?,mozart,.\music\mozart_Andente.ogg,0.3085937499999999
+114,905911.7940999568,inf,True,2,What is the name of the composer?,bach,.\music\bach_Aria_Da_Capo.ogg,0.7250000000000002
+

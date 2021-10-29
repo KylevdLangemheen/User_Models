@@ -1,0 +1,106 @@
+trial,start_time,rt,correct,fact_id,question,answer,song,alpha
+1,10327.638909999223,8024.787095000647,True,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.3
+2,23309.920820000116,1834.0912530002242,True,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.3
+3,27512.505775001046,13887.557576999825,True,2,What is the name of the composer?,bach,./music/bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.3
+4,47065.24398200054,2197.6130139992165,True,2,What is the name of the composer?,bach,./music/bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.3
+5,51645.930015001795,15557.733026998903,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.3
+6,71004.6637710002,16557.242019000114,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.3
+7,91200.11469000019,3477.8366300015477,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.3
+8,97750.05273100032,1251.0466860003362,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.3
+9,103615.61492799956,4204.5123360003345,True,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.349609375
+10,109780.87545699964,2578.0895480020263,True,2,What is the name of the composer?,bach,./music/bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.27460937500000004
+11,114787.67815600077,5226.87515600046,True,22,What is the name of the composer?,vivaldi,./music/vivaldi_Allegro.ogg,0.3
+12,124589.5605400001,13312.588482000137,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.3
+13,141364.03950800013,2449.231427999621,True,22,What is the name of the composer?,vivaldi,./music/vivaldi_Allegro.ogg,0.3
+14,146856.0064480007,3134.599810000509,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.3
+15,154380.24574000156,2264.227776999178,True,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.30000000000000004
+16,158812.32040300165,13015.962323999702,False,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.300390625
+17,175676.1783590009,15571.368411001458,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.349609375
+18,194169.66259100082,2545.3860859997803,True,22,What is the name of the composer?,vivaldi,./music/vivaldi_Allegro.ogg,0.250390625
+19,200142.03931700104,5600.107613001455,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.349609375
+20,209115.62420799964,14106.07659300149,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.3
+21,232247.9326419998,4086.3739010019344,False,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.39453125
+22,242663.925492001,inf,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.3
+23,267700.7693480009,inf,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.39921874999999996
+24,285105.1471970022,inf,False,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.394921875
+25,310628.92727299914,4533.050100002612,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.43632812499999996
+26,318769.23699100007,8044.139683999645,False,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.349609375
+27,330073.4290830005,7232.066951000888,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.35
+28,341458.0344060014,11362.79877600103,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.44218749999999996
+29,355477.84117400076,4864.882677000482,True,2,What is the name of the composer?,bach,./music/bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.30000000000000004
+30,362948.9134460018,12469.690125999507,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.44453124999999993
+31,378922.40512900025,inf,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.39609375
+32,396813.2576900025,6595.012463996711,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.469140625
+33,406160.88744599983,4280.923577000096,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.4917968749999999
+34,412914.3736340011,3495.055922001484,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.38164062499999996
+35,419483.62616799935,inf,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.396484375
+36,440331.41163600155,6123.117054998176,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.51640625
+37,449432.78137500235,5035.55253199744,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.48515624999999996
+38,456803.99832600233,3559.4894280002336,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.5292968749999999
+39,463361.29889999935,1924.1594370033126,True,5,What is the name of the composer?,bach,./music/bach_Cello Suite No. 1.ogg,0.2503906250000001
+40,467277.0787900008,2987.2700039995834,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.39374999999999993
+41,472695.8739200018,2843.6163529986516,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.488671875
+42,478449.5737140023,4330.724871997547,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.5546874999999999
+43,485092.5688080024,8136.437175999163,False,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.44296875
+44,496042.04335599934,4336.149840000842,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.5800781249999999
+45,503286.5980230017,2916.979926998494,True,2,What is the name of the composer?,bach,./music/bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.31757812500000004
+46,508249.857310002,5509.668885999417,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.6242187499999999
+47,516148.0815670002,8242.089629002323,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.45585937500000007
+48,527619.2579820018,4697.57154100074,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.673828125
+49,534816.771304002,6551.412627999554,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.53828125
+50,543795.9593080013,3117.5250529994955,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7046875
+51,549279.386344002,3355.1013029973255,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.546484375
+52,554984.197889,3498.251856999472,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7292968750000001
+53,562094.6700429996,2530.698407001095,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.39335937499999996
+54,567422.7919299992,3123.067846001475,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7539062500000001
+55,573509.3328500006,6483.044798998977,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.5015625000000001
+56,584537.6062110008,3454.600616998505,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7550781250000002
+57,590742.2384170023,2889.2684659985825,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.54609375
+58,595937.6992559992,3284.364552000654,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7664062500000002
+59,601349.015527001,5926.919369998388,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.5386718750000002
+60,611336.8843909993,3356.338774003205,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7777343750000001
+61,616987.8688800018,5371.701714997413,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.5515625000000003
+62,625643.8820920011,2991.4629949999508,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7664062500000002
+63,633287.9776320006,2406.6343849990517,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.544140625
+64,638187.0353090017,3073.302001997945,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7871093750000002
+65,643665.1845100023,5923.437212997698,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.5769531250000003
+66,652136.9430000014,3084.100453997962,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7898437500000003
+67,658678.5698759996,5641.738255002536,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.6023437500000003
+68,666948.6468200012,3049.5753930008505,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7878906250000003
+69,672895.7737720012,inf,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.5687500000000001
+70,682411.0423890015,3222.4397549980786,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7906250000000002
+71,687896.8662860024,8518.325356999412,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.6519531250000004
+72,699046.1954980019,2982.1167789996834,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7902343750000003
+73,704481.855987,6163.226545002544,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.6859375000000004
+74,713134.3597240011,3195.975473001483,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7906250000000002
+75,718786.5918290009,3843.815486001433,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7105468750000005
+76,725268.1063220007,2456.3056529986206,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7863281250000003
+77,730369.9523180003,2678.340861999546,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7101562500000005
+78,736951.1117420007,2686.628262999817,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.5433593750000001
+79,741873.0229530011,2992.2304680002853,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7906250000000002
+80,747774.9560640005,inf,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7347656250000005
+81,759553.3795310003,3008.9621240003034,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7839843750000003
+82,764996.8266470022,5310.504364999477,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7625000000000005
+83,774453.5976180014,2402.1628740010783,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7835937500000003
+84,779285.0766449992,2547.8143680011854,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7621093750000005
+85,786510.5924910022,2396.092167997267,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7589843750000003
+86,791561.7186670024,4531.807470997563,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7992187500000006
+87,798717.6277649996,inf,True,20,What is the name of the composer?,vivaldi,./music/vivaldi_The_Four_Seasons _Winter_in_F.ogg,0.39374999999999993
+88,806110.2487589996,3489.8674409997184,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.8035156250000006
+89,812869.8216789998,2741.9178480013506,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7492187500000004
+90,817941.8111790001,1913.6840630016522,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.8031250000000006
+91,822252.4809820025,3779.4446959997294,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.5445312500000001
+92,828835.1442599996,5398.984032999608,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.8089843750000006
+93,836775.2227279998,3180.0004590004683,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7496093750000004
+94,842521.4216429995,2250.3917180001736,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.8085937500000007
+95,849342.9020879994,2454.2316820006818,True,2,What is the name of the composer?,bach,./music/bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.29296875
+96,853813.5852960004,2609.0450400006957,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7777343750000006
+97,860081.4090470013,3044.9276889993344,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7500000000000003
+98,865870.2350310014,2064.4571779994294,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7281250000000006
+99,872129.348765,2496.0449009996373,False,22,What is the name of the composer?,vivaldi,./music/vivaldi_Allegro.ogg,0.296875
+100,877580.0642040012,3258.321288998588,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7582031250000003
+101,883229.6123209998,5566.258849001373,True,21,What is the name of the composer?,mozart,./music/mozart_requim.ogg,0.5832031250000003
+102,891707.1995240003,3242.6184280011803,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7703125000000003
+103,897521.4586180008,5405.931778001133,True,8,What is the name of the composer?,chopin,./music/chopin_Fantasia_On_Polish_Airs.ogg,0.7777343750000006
+104,905488.9761440026,3079.2703999978257,True,13,What is the name of the composer?,chopin,./music/chopin_CHOPIN _NOCTURNE_NO.20.ogg,0.7886718750000004
+

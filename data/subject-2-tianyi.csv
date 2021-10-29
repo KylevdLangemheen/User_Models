@@ -1,0 +1,143 @@
+trial,start_time,rt,correct,fact_id,question,answer,song,alpha
+1,11226.121800020337,4462.156600086018,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3
+2,21461.48920012638,1723.3660998754203,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3
+3,27727.65120002441,4274.493200005963,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.3
+4,39182.9027000349,1723.6622001510113,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.3
+5,42956.33130008355,1938.5434999130666,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.3
+6,58389.68570018187,3219.106299802661,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.3
+7,70903.5281999968,5922.896400094032,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.3
+8,79205.36310016178,4887.218599906191,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.3
+9,86699.49600007385,inf,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.349609375
+10,93491.50700005703,2986.597999930382,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.349609375
+11,98334.81120015495,3487.8252998460084,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.3
+12,111664.48020003736,4917.403200175613,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.3
+13,121176.69640015811,4849.156699841842,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.3
+14,132398.55780010112,3654.700400074944,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.3
+15,137940.52180019207,4696.004299912602,False,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.39921874999999996
+16,145410.2092999965,7299.927700078115,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.349609375
+17,154483.83260006085,8325.285300146788,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.349609375
+18,164663.69780013338,inf,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.39921874999999996
+19,173938.95760015585,1832.8322998713702,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.398828125
+20,178074.93760017678,3522.4162999074906,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.349609375
+21,184016.01850008592,2898.607100127265,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.337890625
+22,188702.13680015877,4585.847999900579,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.3984375
+23,194968.4830000624,5510.8982000965625,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.43476562499999993
+24,202308.46810014918,5399.95660004206,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.39921874999999996
+25,210810.05600001663,2212.833800120279,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.3
+26,216950.23980014957,3505.265499930829,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.3
+27,223263.6805002112,2055.8441998437047,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.3
+28,227871.974500129,3076.989799970761,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.3
+29,233098.16820011474,3551.711200037971,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.4359375
+30,238340.44230007567,4652.462000027299,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.398828125
+31,245202.71810004488,3051.1878000106663,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.38359374999999996
+32,250793.73969999142,4382.214600220323,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.42460937499999996
+33,258901.740900008,3825.906699988991,False,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.41171875
+34,265607.62520018034,2341.7001999914646,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.38203124999999993
+35,270246.06650019996,1722.1494999248534,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3
+36,279602.62080002576,1847.4418001715094,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.250390625
+37,284240.20030000247,6113.985700067133,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.3
+38,292890.94010018744,3170.5569999758154,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.344140625
+39,298389.2611002084,3011.3718998618424,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.44804687499999996
+40,303090.9881000407,3894.857899984345,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.46015624999999993
+41,308967.38230017945,5701.59829990007,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.38398437499999993
+42,318180.9243001044,8219.392699887976,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.4253906249999999
+43,328361.5755001083,8382.583600003272,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.44843749999999993
+44,338919.0996000543,4406.595400068909,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.484765625
+45,345356.74030007794,1941.889600129798,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.40898437500000007
+46,349832.2122001555,4581.201900029555,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.349609375
+47,357353.1760000624,3447.3717000801116,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.42890624999999993
+48,363258.49600019865,12544.079100014642,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.47773437499999993
+49,379394.4928001147,2171.280900016427,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.44765625
+50,383004.65750019066,3434.3493999913335,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.36875
+51,390083.3762001712,3289.6129998844117,False,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.503125
+52,395352.4817000143,4163.632299983874,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.4898437499999999
+53,401879.22980007716,5179.693199926987,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.4078124999999999
+54,409586.3367000129,inf,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.39921874999999996
+55,421800.67820008844,3793.3867000974715,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.5527343750000001
+56,427431.436000159,inf,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.47539062499999996
+57,437800.34960014746,3377.133599948138,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.5578125
+58,442909.7508001141,inf,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.516015625
+59,449630.4659000598,2142.0861000660807,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.44648437499999993
+60,453296.15529999137,2660.096400184557,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.447265625
+61,457620.9153002128,4703.512099804357,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5
+62,464359.6099000424,3469.390599988401,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.5613281250000001
+63,469558.7094000075,2604.540599975735,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.344140625
+64,474412.51799999736,inf,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.54140625
+65,484707.09950011224,3572.1722000744194,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.44609375000000007
+66,490436.71290017664,2859.8893999587744,False,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.44765625
+67,495036.2755001988,6986.02159996517,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.524609375
+68,504043.37100009434,3224.263299955055,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.58359375
+69,509169.39040017314,6307.866899995133,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.5792968749999999
+70,517566.2442999892,3618.3400000445545,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.44179687499999987
+71,523697.071300121,2440.4024998657405,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.57890625
+72,528224.2549001239,3788.868899922818,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6082031250000001
+73,534238.0505001638,2878.88259999454,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5679687500000001
+74,539719.2743001506,2308.6786998901516,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3964843750000001
+75,543865.8423000015,3333.7016000878066,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6273437500000001
+76,548875.8891001344,5536.368599859998,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5746093750000001
+77,556337.5574999955,4982.220600126311,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.603515625
+78,563071.3894001674,2155.96150001511,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.445703125
+79,567070.442300057,3365.4533999506384,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6519531250000001
+80,572105.6462000124,3946.981200017035,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.4664062499999999
+81,578510.6526000891,6829.203699948266,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.6218750000000001
+82,589405.2085999865,3093.9888001885265,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.66171875
+83,594255.3479000926,5097.411500057206,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5992187500000001
+84,601135.9610001091,3911.0510998871177,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.6683593750000002
+85,606801.9992001355,3575.3172000404447,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6722656250000001
+86,612314.5618999843,7102.987200021744,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.6929687500000002
+87,621171.6897999868,2201.245600124821,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5988281250000002
+88,625750.8090001065,1612.2592000756413,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.6925781250000003
+89,629553.1231001951,3242.521399864927,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.67890625
+90,634552.6823000982,2178.0846999026835,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.45390624999999996
+91,641671.6795000248,4355.105299968272,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.7054687500000002
+92,647548.0035000946,2977.0772999618202,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.691015625
+93,652330.6630000006,3900.7057000417262,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.46992187499999993
+94,659076.1777001899,2329.15179990232,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.7042968750000002
+95,663245.7424001768,2235.959299840033,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5984375000000002
+96,667270.4764001537,3202.7660999447107,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6945312499999999
+97,672425.6462000776,1895.1103000435978,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.4453125
+98,676258.8947000913,inf,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.7539062500000002
+99,682533.7894000113,3292.6325001753867,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7160156249999999
+100,687639.2558000516,3237.275500083342,False,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.8035156250000003
+101,694784.8002000246,2603.306300006807,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5628906250000001
+102,699674.2218001746,1439.0849999617785,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.8031250000000003
+103,702867.2625999898,2413.83790015243,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6945312499999999
+104,707238.1366000045,1242.7447000518441,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.7535156250000002
+105,710529.1542999912,1729.2591000441462,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.45429687499999993
+106,716117.4941000063,3814.542300067842,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.49453125
+107,722276.9859000109,2838.407500181347,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.7789062500000002
+108,727045.8010002039,2480.753699783236,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.6925781249999999
+109,731190.2100001462,1161.1542999744415,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.7292968750000002
+110,734790.880799992,2990.861700149253,True,21,What is the name of the composer?,vivaldi,.\music\vivaldi_Allegro.ogg,0.34140625
+111,739710.4581000749,3560.144799994305,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.715625
+112,745015.5534001533,inf,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.49492187499999996
+113,756746.7083001975,3354.842099826783,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.740234375
+114,762119.9743000325,1450.6109999492764,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.6796875000000001
+115,765359.3074001838,2598.273599985987,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.75234375
+116,769795.8939000964,2871.8654999975115,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.494140625
+117,775032.5465002097,3225.0362997874618,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.770703125
+118,779957.7427001204,inf,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5632812500000001
+119,787276.4893001877,2641.3330999203026,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7703125000000001
+120,791547.6593000349,2585.5016000568867,True,24,What is the name of the composer?,vivaldi,.\music\vivaldi_Variation_Arr._for_Piano_from_Concerto.ogg,0.45078125
+121,796095.4303001054,2865.5318999662995,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.7714843750000001
+122,800629.4402000494,2192.399299936369,True,6,What is the name of the composer?,beethoven,.\music\beethoven_beethoven.ogg,0.20078125
+123,805352.7002001647,3124.3322000373155,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.8210937500000002
+124,810166.2829001434,1455.628199968487,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.630078125
+125,814272.8745001368,2705.1500000525266,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.8339843750000001
+126,818775.5282002036,2077.7038999367505,False,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.48906249999999996
+127,823998.1029999908,3097.287200158462,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.8343750000000001
+128,828743.0446001235,3276.816099882126,True,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.563671875
+129,836733.6684002075,2725.67219985649,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.831640625
+130,841244.1322000232,2711.0902001149952,True,9,What is the name of the composer?,beethoven,.\music\beethoven_no_14_moonlight.ogg,0.49375
+131,853232.2814001236,2791.137200081721,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.83125
+132,857674.9093001708,inf,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.44609375000000007
+133,864936.2139001023,3170.6538998987526,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.831640625
+134,869795.0057000853,2672.2794000525028,True,3,What is the name of the composer?,bach,.\music\bach_Cello Suite No. 1.ogg,0.488671875
+135,874391.9993001036,2987.059799954295,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.853125
+136,879100.1274001319,3989.120699930936,False,4,What is the name of the composer?,bach,.\music\bach_No._5_in_F_Minor_BWV_1056_II._Largo.ogg,0.5890625
+137,887816.3191000931,3083.5164000745863,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.851171875
+138,892712.816900108,1793.7197999563068,True,25,What is the name of the composer?,vivaldi,.\music\vivaldi_Viola_d_amore_Concerto_in_A_Minor_RV_397_I_Vivace.ogg,0.3964843750000001
+139,896961.5977001376,3551.192499930039,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.85390625
+140,902303.4801001195,3079.4166999403387,True,13,What is the name of the composer?,chopin,.\music\chopin_Chopin_Piano_Sonata_No.1.ogg,0.63046875
+141,907905.3990000393,2739.194800145924,True,11,What is the name of the composer?,chopin,.\music\chopin_Chopin FantaisiecImpromptu Op. 66.ogg,0.853515625
+
