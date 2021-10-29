@@ -1,4 +1,10 @@
 library(ggplot2)
+#Load packages
+library(shiny)
+library(shinythemes)
+library(dplyr)
+library(readr)
+
 setwd ("C:/Users/landm/Documents/GitHub/User_Models/data")
 dir()
 
@@ -26,25 +32,25 @@ training_data = rbind(subject_0,subject_1,subject_2,subject_5,subject_6,subject_
 is.na(training_data)<-sapply(training_data, is.infinite)
 training_data[is.na(training_data)]<-0
 subject_0_test <- read.csv(file="subject-0-test.csv", header=TRUE, sep=",")
-subject_0_test<-subset(subject_0_test,fact_id=!1,fact_id=!4,fact_id=!7,fact_id=!14,fact_id=!16,fact_id=!21)
+subject_0_test<-subset(subject_0_test,fact_id!=1&fact_id!=4&fact_id!=7*fact_id!=14&fact_id!=16&fact_id!=21)
 subject_0_test$ID = 0
 subject_1_test<- read.csv(file="subject-1-test.csv", header=TRUE, sep=",")
-subject_1_test<-subset(subject_1_test,fact_id=!2,fact_id=!3,fact_id=!6,fact_id=!13,fact_id=!14,fact_id=!18,fact_id=!20,fact_id=!23)
+subject_1_test<-subset(subject_1_test,fact_id!=2&fact_id!=3&fact_id!=6&fact_id!=13&fact_id!=14&fact_id!=18&fact_id!=20&fact_id!=23)
 subject_1_test$ID = 1
 subject_2_test<- read.csv(file="subject-2-test.csv", header=TRUE, sep=",")
-subject_2_test<-subset(subject_2_test,fact_id=!3,fact_id=!4,fact_id=!6,fact_id=!9,fact_id=!11,fact_id=!21,fact_id=!24,fact_id=!25)
+subject_2_test<-subset(subject_2_test,fact_id!=3&fact_id!=4&fact_id!=6&fact_id!=9&fact_id!=11&fact_id!=21&fact_id!=24&fact_id!=25)
 subject_2_test$ID = 2
 subject_5_test<- read.csv(file="subject-5-test.csv", header=TRUE, sep=",")
 subject_5_test$ID = 5
-subject_5_test<-subset(subject_5_test,fact_id=!1,fact_id=!5,fact_id=!12,fact_id=!13,fact_id=!14,fact_id=!15,fact_id=!17,fact_id=!19,fact_id=!22,fact_id=!23)
+subject_5_test<-subset(subject_5_test,fact_id!=1&fact_id!=5&fact_id!=12&fact_id!=13&fact_id!=14&fact_id!=15&fact_id!=17&fact_id!=19&fact_id!=22&fact_id!=23)
 
 subject_6_test<- read.csv(file="subject-6-test.csv", header=TRUE, sep=",")
 subject_6_test$ID = 6
-subject_6_test<-subset(subject_6_test,fact_id=!3,fact_id=!5,fact_id=!9,fact_id=!17,fact_id=!20,fact_id=!21,fact_id=!24,fact_id=!25)
+subject_6_test<-subset(subject_6_test,fact_id!=3&fact_id!=5&fact_id!=9&fact_id!=17&fact_id!=20&fact_id!=21&fact_id!=24&fact_id!=25)
 
 subject_7_test<- read.csv(file="subject-7.test.csv", header=TRUE, sep=",")
 subject_7_test$ID = 7
-subject_7_test<-subset(subject_7_test,fact_id=!1,fact_id=!3,fact_id=!5,fact_id=!6,fact_id=!7,fact_id=!11,fact_id=!15,fact_id=!22,fact_id=!23,fact_id=!25)
+subject_7_test<-subset(subject_7_test,fact_id!=1&fact_id!=3&fact_id!=5&fact_id!=6&fact_id!=7&fact_id!=11&fact_id!=15&fact_id!=22&fact_id!=23&fact_id!=25)
 
 testing_data =rbind(subject_0_test,subject_1_test,subject_2_test,subject_5_test,subject_6_test,subject_7_test)
 is.na(testing_data)<-sapply(testing_data, is.infinite)
@@ -52,10 +58,6 @@ testing_data[is.na(testing_data)]<-0
 testing_data$correct<-as.logical(testing_data$correct)
 testing_data$correct<-as.integer(testing_data$correct)
 
-# fact_id1 <-training_data$fact_id[1]
- fact1 <-  subset(training_data,fact_id==fact_id1)
-# max <-length(fact1$trial)
-# fact1$trial <-1:max
 # 
 # p<-ggplot(data=fact1, aes(x=trial, y=rt,fill=correct)) +
 #   geom_bar(stat="identity")
@@ -86,3 +88,89 @@ training_data$answer<-as.factor(training_data$answer)
 training_data$answer<-as.integer(training_data$answer)
 histogram<-qplot(training_data$fact_id, geom="histogram")
 table(training_data$fact_id)
+
+
+# Define UI
+ui <- fluidPage(theme = shinytheme("lumen"),
+                titlePanel("Classical music Learning"),
+              
+                  # Output: Description, lineplot, and reference
+                    tabsetPanel(
+                    tabPanel(title = "Training data",
+                    selectInput(inputId = "fact_ID", label = strong("Fact ID"),
+                    choices = unique(training_data$fact_id),
+                    selected = training_data$fact_id[1]),
+                             
+                    plotOutput(outputId = "lineplot", height = "300px"),
+                    plotOutput(outputId = "lineplot2", height = "300px"),
+                    
+                    textOutput(outputId = "desc"),
+                    ),
+                      tabPanel(title = "Test data",
+                               selectInput(inputId = "ID", label = strong("Participant ID"),
+                                           choices = unique(testing_data$ID),
+                                           selected = testing_data$ID[1]),
+                               
+                               plotOutput(outputId = "lineplot3", height = "300px"),
+                              
+        
+                  ),
+                  tabPanel(title = "Overall result",
+                           
+                           plotOutput(outputId = "lineplot4", height = "300px"),
+                           
+                           
+                  ),
+                    ),
+)
+
+
+# Define server function
+server <- function(input, output) {
+  
+  # Subset data
+  selected_trends <- reactive({
+    req(inputId)
+    })
+  
+  # 
+  
+  
+  
+  # Create scatterplot object the plotOutput function is expecting
+  output$lineplot <- renderPlot({
+    data = subset(training_data,training_data$fact_id==input$fact_ID)
+    max <-length(data$trial)
+    data$trial <-1:max
+    ggplot(data=data, aes(x=trial, y=alpha,fill=correct))+ggtitle("Mean alpha of fact during training") +
+         geom_bar(stat="identity")
+     
+    })
+  output$lineplot2 <- renderPlot({
+    data = subset(training_data,training_data$fact_id==input$fact_ID)
+    max <-length(data$trial)
+    data$trial <-1:max
+    ggplot(data=data, aes(x=trial, y=rt,fill=correct))+ggtitle("Mean RT of fact during training") +
+      geom_bar(stat="identity")
+    
+  })
+  output$lineplot3 <- renderPlot({
+    data = subset(testing_data,testing_data$ID==input$ID)
+    max <-length(data$trial)
+    data$trial <-1:max
+    ggplot(data=data, aes(x=answer, y=correct))+ggtitle("Accuracy per participants") +
+      geom_bar(stat="identity")+ylim(0,5)
+    })
+  
+  output$lineplot4 <- renderPlot({
+    mean.correct <- with(testing_data,aggregate(list(correct=correct),list(answer=answer),mean))
+    composers_correct<- ggplot(data=mean.correct, aes(x=answer, y=correct,fill=correct)) +
+      geom_bar(stat="identity")
+    composers_correct + labs(title="Mean score per composer during testing")
+  })
+  }
+
+# Create Shiny object
+shinyApp(ui = ui, server = server)
+
+
