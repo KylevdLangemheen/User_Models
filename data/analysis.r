@@ -84,10 +84,10 @@ composers_alpha + labs(title="Alpha per composer during training",x="Composer",y
 composers_correct<- ggplot(data=mean.correct, aes(x=answer, y=correct,fill=correct)) +
   geom_bar(stat="identity")
 composers_correct + labs(title="Score per composer during testing")
-training_data$answer<-as.factor(training_data$answer)
-training_data$answer<-as.integer(training_data$answer)
-histogram<-qplot(training_data$fact_id, geom="histogram")
-table(training_data$fact_id)
+# training_data$answer<-as.factor(training_data$answer)
+# training_data$answer<-as.integer(training_data$answer)
+# histogram<-qplot(training_data$fact_id, geom="histogram")
+# table(training_data$fact_id)
 
 
 # Define UI
@@ -96,7 +96,7 @@ ui <- fluidPage(theme = shinytheme("lumen"),
               
                   # Output: Description, lineplot, and reference
                     tabsetPanel(
-                    tabPanel(title = "Training data",
+                    tabPanel(title = "Training data: facts",
                     selectInput(inputId = "fact_ID", label = strong("Fact ID"),
                     choices = unique(training_data$fact_id),
                     selected = training_data$fact_id[1]),
@@ -105,6 +105,15 @@ ui <- fluidPage(theme = shinytheme("lumen"),
                     plotOutput(outputId = "lineplot2", height = "300px"),
                     
                     textOutput(outputId = "desc"),
+                    ),
+                    tabPanel(title = "Training data: Trials",
+                             selectInput(inputId = "ID", label = strong("Participant ID"),
+                                         choices = unique(training_data$ID),
+                                         selected = training_data$ID[1]),
+                             
+                             plotOutput(outputId = "lineplot5", height = "300px"),
+                             plotOutput(outputId = "lineplot6", height = "300px")
+                             
                     ),
                       tabPanel(title = "Test data",
                                selectInput(inputId = "ID", label = strong("Participant ID"),
@@ -159,7 +168,7 @@ server <- function(input, output) {
     max <-length(data$trial)
     data$trial <-1:max
     ggplot(data=data, aes(x=answer, y=correct))+ggtitle("Accuracy per participants") +
-      geom_bar(stat="identity")+ylim(0,5)
+      geom_bar(stat="identity",fill="#56B4E9")+ylim(0,5)
     })
   
   output$lineplot4 <- renderPlot({
@@ -167,6 +176,18 @@ server <- function(input, output) {
     composers_correct<- ggplot(data=mean.correct, aes(x=answer, y=correct,fill=correct)) +
       geom_bar(stat="identity")
     composers_correct + labs(title="Mean score per composer during testing")
+  })
+  output$lineplot5 <- renderPlot({
+    data = subset(training_data,training_data$ID==input$ID)
+    ggplot(data=data, aes(x=trial, y=alpha,fill=answer))+ggtitle("Alpha of  all fact during one training trail") +
+      geom_bar(stat="identity")
+    
+  })
+  output$lineplot6 <- renderPlot({
+    data = subset(training_data,training_data$ID==input$ID)
+    ggplot(data=data, aes(x=trial, y=rt,fill=answer))+ggtitle("RT of  all fact during one training trail") +
+      geom_bar(stat="identity")
+    
   })
   }
 
