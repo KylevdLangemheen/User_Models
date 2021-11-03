@@ -290,7 +290,12 @@ testing_data[is.na(testing_data)]<-0
 testing_data$correct<-as.logical(testing_data$correct)
 testing_data$correct<-as.integer(testing_data$correct)
 testing_data$read_notes<-as.logical(testing_data$read_notes)
-# 
+
+remove_NA <- function(data) {
+  is.na(data)<-sapply(data, is.infinite)
+  data[is.na(data)]<-0
+}
+  # 
 # p<-ggplot(data=fact1, aes(x=trial, y=rt,fill=correct)) +
 #   geom_bar(stat="identity")
 # p + labs(title="Reaction time of the first fact during training",x="Trial",y="Reaction time (ms)")
@@ -316,9 +321,7 @@ composers_alpha + labs(title="Alpha per composer during training",x="Composer",y
 composers_correct<- ggplot(data=mean.correct, aes(x=answer, y=correct,fill=correct)) +
   geom_bar(stat="identity")
 composers_correct + labs(title="Score per composer during testing")
-# training_data$answer<-as.factor(training_data$answer)
-# training_data$answer<-as.integer(training_data$answer)
-# histogram<-qplot(training_data$fact_id, geom="histogram")
+  histogram<-qplot(training_data$fact_id, geom="histogram")
 # table(training_data$fact_id)
 
 
@@ -347,15 +350,13 @@ ui <- fluidPage(theme = shinytheme("lumen"),
                              plotOutput(outputId = "lineplot6", height = "300px")
                              
                     ),
-                      tabPanel(title = "Test data",
-                               selectInput(inputId = "ID", label = strong("Participant ID"),
-                                           choices = unique(testing_data$ID),
-                                           selected = testing_data$ID[1]),
-                               
-                               plotOutput(outputId = "lineplot3", height = "300px"),
-                              
-        
-                  ),
+                  tabPanel(title = "Testing data",
+                             selectInput(inputId = "ID2", label = strong("Participant ID"),
+                                         choices = unique(testing_data$ID),
+                                         selected = testing_data$ID[0]),
+                             
+                             plotOutput(outputId = "lineplot3", height = "300px")
+                    ),
                   tabPanel(title = "Overall result",
                            
                            plotOutput(outputId = "lineplot4", height = "300px"),
@@ -396,16 +397,16 @@ server <- function(input, output) {
     
   })
   output$lineplot3 <- renderPlot({
-    data = subset(testing_data,testing_data$ID==input$ID)
+    data = subset(testing_data,testing_data$ID==input$ID2)
     max <-length(data$trial)
     data$trial <-1:max
     ggplot(data=data, aes(x=answer, y=correct))+ggtitle("Accuracy per participants") +
-      geom_bar(stat="identity",fill="#56B4E9")+ylim(0,5)
-    })
+      geom_bar(stat="identity",fill="#56B4E9")
+  })
   
   output$lineplot4 <- renderPlot({
     
-    mean.correct <- with(testing_data,aggregate(list(correct=correct),list(answer=answer,read_notes=read_notes),sum))
+    mean.correct <- with(testing_data,aggregate(list(correct=correct),list(answer=answer,read_notes=read_notes),mean))
     composers_correct<- ggplot(data=mean.correct, aes(x=read_notes, y=correct,fill=answer)) +
       geom_bar(stat="identity")
     composers_correct + labs(title="Mean score per composer during testing")
@@ -419,7 +420,7 @@ server <- function(input, output) {
   output$lineplot6 <- renderPlot({
     data = subset(training_data,training_data$ID==input$ID)
     ggplot(data=data, aes(x=trial, y=rt,fill=answer))+ggtitle("RT of  all facts during one training trail") +
-      geom_bar(stat="identity")+ylim(0,1000)
+      geom_bar(stat="identity")
     
   })
   output$lineplot7 <- renderPlot({
@@ -433,6 +434,4 @@ server <- function(input, output) {
 
 # Create Shiny object
 shinyApp(ui = ui, server = server)
-
-
 
