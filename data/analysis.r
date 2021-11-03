@@ -1,3 +1,4 @@
+install.packages("ggplot2","shinythemes","shiny",'dplyr','readr')
 library(ggplot2)
 #Load packages
 library(shiny)
